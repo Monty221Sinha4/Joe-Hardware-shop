@@ -1,0 +1,10 @@
+create table CustomerOrders
+(
+ID int primary key identity (1,1) not null,
+CustomerID int not null,
+ProductID int not null,
+OrderID int not null,
+AddressID int not null,
+CityID int not null,
+DeliviryDate date not null,
+); 
