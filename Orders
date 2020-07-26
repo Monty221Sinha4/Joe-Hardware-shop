@@ -1,0 +1,6 @@
+create table Orders 
+(
+OrderID int primary key identity (1,1) not null,
+Orderdate date not null,
+OrderDescirption varchar(40) not null,
+); 
